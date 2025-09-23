@@ -1,11 +1,13 @@
 import HabitForm from "./components/HabitForm";
 import HabitList from "./components/HabitList";
+import ThemeToggle from "./components/ThemeToggle"; // estava faltando!
 import { HabitProvider } from "./context/HabitContext";
 
 const App = () => {
   return (
     <HabitProvider>
-      <div>
+      <div className="container">
+        <ThemeToggle />
         <h1>HabitTrack – Meus Hábitos Diários</h1>
         <HabitForm />
         <HabitList />
