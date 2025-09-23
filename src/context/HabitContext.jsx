@@ -33,5 +33,6 @@ export const HabitProvider = ({ children }) => {
     <HabitContext.Provider value={{ habits, addHabit, toggleHabit }}>
       {children}
     </HabitContext.Provider>
+    
   );
 };
