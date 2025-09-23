@@ -14,8 +14,9 @@ const HabitForm = () => {
   };
 
   return (
-    <form onSubmit={handleSubmit}>
+    <form onSubmit={handleSubmit} className="habit-form-inline">
       <input
+        type="text"
         value={title}
         onChange={(e) => setTitle(e.target.value)}
         placeholder="Novo hábito"
