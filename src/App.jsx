@@ -1,6 +1,6 @@
 import HabitForm from "./components/HabitForm";
 import HabitList from "./components/HabitList";
-import ThemeToggle from "./components/ThemeToggle"; // estava faltando!
+import ThemeToggle from "./components/ThemeToggle";
 import { HabitProvider } from "./context/HabitContext";
 
 const App = () => {

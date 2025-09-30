@@ -6,13 +6,11 @@ export const HabitContext = createContext();
 export const HabitProvider = ({ children }) => {
   const [habits, setHabits] = useState([]);
 
-  // Carrega do localStorage ao iniciar
   useEffect(() => {
     const storedHabits = JSON.parse(localStorage.getItem("habits")) || [];
     setHabits(storedHabits);
   }, []);
 
-  // Salva no localStorage quando hábitos mudam
   useEffect(() => {
     localStorage.setItem("habits", JSON.stringify(habits));
   }, [habits]);

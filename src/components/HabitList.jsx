@@ -9,12 +9,12 @@ const HabitList = () => {
   const filteredHabits = habits.filter((habit) => {
     if (tab === "done") return habit.done;
     if (tab === "not_done") return !habit.done;
-    return true; // "all"
+    return true;
   });
 
   return (
     <div>
-      {/* Abas de navegação */}
+      {/*navegação */}
       <div style={{ display: "flex", gap: "1rem", marginBottom: "1rem" }}>
         <button onClick={() => setTab("all")} disabled={tab === "all"}>
           Todos
@@ -27,7 +27,7 @@ const HabitList = () => {
         </button>
       </div>
 
-      {/* Lista de hábitos filtrada */}
+      {/* Lista de hábitos*/}
       {filteredHabits.length === 0 ? (
         <p>Nenhum hábito nesta aba.</p>
       ) : (

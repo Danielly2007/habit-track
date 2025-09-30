@@ -44,7 +44,7 @@ body.dark form.habit-form-inline input {
   border: 1px solid #c084fc;
 }
 
-/* Botões padrão */
+/* Botões */
 button {
   padding: 0.6rem 1rem;
   background-color: #7c3aed;
@@ -68,7 +68,7 @@ body.dark button:hover {
   background-color: #d8b4fe;
 }
 
-/* Lista de hábitos */
+/* hábitos */
 ul {
   list-style: none;
   padding: 0;
