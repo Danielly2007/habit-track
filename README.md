@@ -16,13 +16,21 @@ Projeto criado para praticar hooks do React (`useState`, `useEffect`) e organiza
 ## 📂 Estrutura do Projeto
 
 habit-track/
+
 ├── public/ # Arquivos estáticos
+
 ├── src/ # Código fonte do app
+
 │ ├── components/ # Componentes reutilizáveis
+
 │ ├── pages/ # Páginas principais
+
 │ ├── App.jsx # Componente raiz
+
 │ └── main.jsx # Ponto de entrada
+
 ├── package.json
+
 └── vite.config.js
 
 ---
