@@ -14,6 +14,7 @@ Projeto criado para praticar hooks do React (`useState`, `useEffect`) e organiza
 ---
 
 ## 📂 Estrutura do Projeto
+
 habit-track/
 ├── public/ # Arquivos estáticos
 ├── src/ # Código fonte do app
