@@ -56,6 +56,8 @@ habit-track/
 
 - Interface simples e intuitiva
 
+  ---
+
 ## 📄 Licença
 
 Este projeto é apenas para fins de estudo.
