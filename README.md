@@ -56,7 +56,7 @@ habit-track/
 
 - Interface simples e intuitiva
 
-  ---
+---
 
 ## 📄 Licença
 
