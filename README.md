@@ -33,5 +33,32 @@ habit-track/
    git clone https://github.com/Danielly2007/habit-track.git
    
 2. Entre na pasta do projeto:
+   ```bash
+   cd habit-track
+   
+3. Instale as dependências:
+   ```bash
+   npm install
 
-cd habit-track
+4. Rode o servidor de desenvolvimento:
+   ```bash
+   npm run dev
+   
+---
+
+## ✨ Funcionalidades
+
+- Adicionar hábitos diários
+
+- Marcar hábitos concluídos
+
+- Resetar progresso
+
+- Interface simples e intuitiva
+
+## 📄 Licença
+
+Este projeto é apenas para fins de estudo.
+Sinta-se livre para usar como base para seus próprios projetos. 😉
+
+
