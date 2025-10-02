@@ -17,19 +17,40 @@ Projeto criado para praticar hooks do React (`useState`, `useEffect`) e organiza
 
 habit-track/
 
-├── public/ # Arquivos estáticos
+├── public/
 
-├── src/ # Código fonte do app
+├── src/
+│ ├── assets/ # Imagens e arquivos estáticos
 
 │ ├── components/ # Componentes reutilizáveis
 
-│ ├── pages/ # Páginas principais
+│ │ ├── HabitForm.jsx
 
-│ ├── App.jsx # Componente raiz
+│ │ ├── HabitItem.jsx
 
-│ └── main.jsx # Ponto de entrada
+│ │ ├── HabitList.jsx
+
+│ │ └── ThemeToggle.jsx
+
+│ ├── context/ # Context API para estados globais
+
+│ │ ├── HabitContext.jsx
+
+│ │ └── ThemeContext.jsx
+
+│ ├── App.jsx
+
+│ ├── App.css
+
+│ ├── index.css
+
+│ └── main.jsx
+
+├── index.html
 
 ├── package.json
+
+└── vite.config.js
 
 └── vite.config.js
 
